@@ -1,0 +1,142 @@
+/* .ul_css{
+    background-color: yellowgreen;
+}
+.ul_css li{
+    background-color: red;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: disc;
+    list-style-type: none;
+}
+.ul_css .demo_child{
+    background-color: blue;
+}
+
+.ol_css{
+    background-color: pink;
+}
+.ol_css li{
+    background-color: salmon;
+    list-style-type: upper-alpha;
+    list-style-type: lower-alpha;
+    list-style-type: upper-roman;
+    list-style-type: lower-roman;
+    list-style-type: decimal;
+    list-style-type: none;
+} */
+
+
+
+
+
+
+.border_type1{
+    /* border-style: dotted;
+    border-color: red;
+    border-width: 2px; */
+    border: 3px dotted darkblue;
+}
+.border_type2{
+    border: 3px solid red;
+}
+.border_type3{
+    border: 3px dashed green;
+}
+.border_type4{
+    border: 5px double darkred;
+}
+.border_type5{
+    border: 5px groove red;
+}
+.border_type6{
+    border: 5px inset red;
+}
+.border_type7{
+    border: 5px outset red;
+}
+
+.border_direction{
+    background-color: pink;
+    /* border-bottom:3px solid red;
+    border-right: 4px dotted navy;
+    border-left: 5px double darkgreen;
+    border-top: 5px dashed salmon; */
+    border-style: solid;
+    border-color: red;
+    border-width: 20px; /*(t,r,l,b)*/
+    border-width: 20px 5px; /*(tb,rl)*/
+    border-width: 10px 50px 5px;  /*(t,rl,b)*/
+    border-width: 20px 5px 2px 50px; /*(t,r,b,l)*/
+}
+.border_radius{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 5px solid black;
+    /* border-radius: 30px; */
+    /* border-radius: 50%; */
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.img_radius{
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+/* body{
+    margin: 0px;
+} */
+.margin_css{
+    background-color: yellowgreen;
+    border: 3px solid black;
+    /* margin: 40px; */
+    /* margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px; */
+    margin: 50px 10px; /*(tb,rl)*/
+    margin: 50px 4px 10px; /*(t,rl,b)*/
+
+}
+.padding_css{
+    background-color: yellow;
+    margin: 100px;
+    /* padding: 20px; */
+    padding: 40px 10px;
+    padding: 30px 5px 10px;
+    padding: 2px 20px 15px  50px;
+}
+
+
+
+.margin_img{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-top: 10px;
+    /* margin-left: auto;
+    margin-right: auto;  */
+   margin: auto;
+}
+.Box_Model{
+    padding: 140px;
+    border: 5px solid red;
+    margin: 40px;
+    width: 200px;
+}
+
+
+.text1{
+    color: navy;
+    /* font-weight: 700; */
+    /* font-weight: bold; */
+    /* font-weight: 900; */
+    /* font-style: italic; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Dancing Script', cursive; */
+
+}
