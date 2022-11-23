@@ -1,3 +1,9 @@
+// To run this file use the below command
+// node react_day_2.js
+
+
+
+
 const products = [
   {
     id: 1,
