@@ -1,5 +1,5 @@
 // To run this file use the below command
-// node main.js
+// node react_day_1.js
 
 
 
